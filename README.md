@@ -1,4 +1,5 @@
-# FastAudioVisual 
+# FastAudioVisual   ![license](https://img.shields.io/badge/License-MIT-brightgreen.svg)
+
 
 ## Usage
 A cross-platform command line tool to count the amount of lines and files under current directory.
