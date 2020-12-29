@@ -1,0 +1,5 @@
+tensorflow
+librosa
+matplotlib
+torch
+Django!=1.11.1,<=2,>=1.11

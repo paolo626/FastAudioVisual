@@ -1,0 +1,7 @@
+README.md
+setup.py
+FastAudioVisual.egg-info/PKG-INFO
+FastAudioVisual.egg-info/SOURCES.txt
+FastAudioVisual.egg-info/dependency_links.txt
+FastAudioVisual.egg-info/requires.txt
+FastAudioVisual.egg-info/top_level.txt
