@@ -58,28 +58,3 @@ def extract_mfcc(y, sr, size=3):
 
 
 
-
-def noisy_signal(signal, snr_low=15, snr_high=30, nb_augmented=2):
-    '''
-    Function to add noise to a signals with a desired Signal Noise ratio (SNR)
-    '''
-    
-    # Signal length
-    signal_len = len(signal)
-
-    # Generate White noise
-    noise = np.random.normal(size=(nb_augmented, signal_len))
-    
-    # Compute signal and noise power
-    s_power = np.sum((signal / (2.0 ** 15)) ** 2) / signal_len
-    n_power = np.sum((noise / (2.0 ** 15)) ** 2, axis=1) / signal_len
-    
-    # Random SNR: Uniform [15, 30]
-    snr = np.random.randint(snr_low, snr_high)
-    
-    # Compute K coeff for each noise
-    K = np.sqrt((s_power / n_power) * 10 ** (- snr / 10))
-    K = np.ones((signal_len, nb_augmented)) * K
-    
-    # Generate noisy signal
-    return signal + K.T * noise
