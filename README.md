@@ -1,8 +1,74 @@
 # FastAudioVisual   ![license](https://img.shields.io/badge/License-MIT-brightgreen.svg)
 
 
-## Usage
-A cross-platform command line tool to count the amount of lines and files under current directory.
+
+
+Our project is developed [here](https://blog.csdn.net/liupeng19970119/article/details/111881802).  The goal finish time is March 01, 2021 
+## What is FastAudioVisual?
+FastAudioVisual is a tool that allows us to develop and analyse research in the audiovisual domain. The framework of this model as follow:
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20201230114511204.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpdXBlbmcxOTk3MDExOQ==,size_16,color_FFFFFF,t_70)
+
+As we can see that this project has five parts.  Here is the detail of each part.
+
+1. DataRegular: It causes many questions due to different file structure in  some research. In this work,  we develop a series of functions to make your database regular with the next step. All of these funfunctions arested and regular by RAVDESS which is a big database in multimodal emotion recognition.
+2. FeatureExtract:   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Develop and Iteration
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 3. 功能内容与具体
+## 4. 后期维护与迭代
 
 ## Installation
 You can install, upgrade, uninstall count-line with these commands(without $):
