@@ -59,8 +59,6 @@ setuptools.setup(
     ],
     install_requires=[               # 该库需要的依赖库
         # exapmle
-        'tensorflow',
-        'librosa',
         'matplotlib',       
         'torch',  
         'Django >= 1.11, != 1.11.1, <= 2',

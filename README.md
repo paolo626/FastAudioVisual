@@ -19,7 +19,8 @@ As we can see that this project has five parts.  Here is the detail of each part
 4. ModelDesign: In this part, we focus on audiovisual fusion method and model design for audiovisual other domain( including loss  , framework, other trick.).  It collect some research work and code. Also, we can replace simplemodel into this part. Making the result is better.  
 
 5. Analysis: Based on above parts, we will using some tool to analysis the result of this experiment. Such as confusion matrix, CAM, feature distrbution. 
-6. Others: It includes some paper or blog for this area. And aslo give other code not included in above part. 
+6. Test:  Some demo for using this project. 
+7. Others: It includes some paper or blog for this area. 
 
 
 In general, All of these design is for developing your audiovisual research fastly by this ttool!
