@@ -28,7 +28,7 @@ def ReplaceFileName(picPath,fileSuffix=".jpg", regularName="One-",startNumber=0)
             print ("Change orignial File："+oldPath+u" to："+newPath)
             i=i+1
 
-def ReplaceDirName(rootDir,startNumber=0):#修改rootDir路径下的文件夹名
+def ReplaceDirName(rootDir,startNumber=0):
     """Modify the folder name under the rootDir path.
     This function just change your Dir name in one loop.
       rootDir : The dir  in your computer.
@@ -47,6 +47,18 @@ def ReplaceDirName(rootDir,startNumber=0):#修改rootDir路径下的文件夹名
         newName = os.path.join(rootDir, temp)     # 新文件夹的名字
 
         os.rename(oldName, newName)        #替换
+
+
+def MoveFileFromSCV(FileSVC): 
+    pass
+
+
+
+
+
+
+
+
 
 if __name__ == '__main__':
     rootDir = './data'
