@@ -13,7 +13,7 @@ def extract_logmel(y, sr, size=3):
     :param size: the length (seconds) of random crop from original audio, default as 3 seconds
     :return: log-mel spectrogram feature
     """
-    # normalization
+    # normalizationddd
     y = y.astype(np.float32)
     normalization_factor = 1 / np.max(np.abs(y))
     y = y * normalization_factor
