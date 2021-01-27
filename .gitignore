@@ -1,0 +1,7 @@
+.DS_Store
+
+count_line.egg-info/
+dist/
+build/
+
+__pycahe__/
